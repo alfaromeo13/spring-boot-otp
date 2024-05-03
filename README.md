@@ -51,14 +51,3 @@ Example Request Payload: { "otp": "your otp number" }
 - Modified TokenProvided to support logic that first check if otp is required. If OTP is not needed token will be generated
 instantly, but if OTP is required token will not be provided to end user (client), email will be sent with OTP code
 - OTP can be verified used _/auth/verify_ route in AuthenticationController
-
-## Author
-Heril Muratović  
-Software Engineer  
-<br>
-**Mobile**: +38269657962  
-**E-mail**: hedzaprog@gmail.com  
-**Skype**: hedza06  
-**Twitter**: hedzakirk  
-**LinkedIn**: https://www.linkedin.com/in/heril-muratovi%C4%87-021097132/  
-**StackOverflow**: https://stackoverflow.com/users/4078505/heril-muratovic
